@@ -1,6 +1,6 @@
 public class Developer extends Employee {
-    public Developer(String name, double baseSalary) {
-        super(name,baseSalary);
+    public Developer(String nameD, double baseSalary) {
+        super(nameD,baseSalary);
     }
 
     @Override

@@ -1,11 +1,11 @@
 public class TextLabel implements Drawable{
-    private String text;
-    public TextLabel(String text)
+    private String textT;
+    public TextLabel(String textT)
     {
-        this.text = text;
+        this.textT = textT;
     }
     @Override
     public void draw() {
-        System.out.println("Text "+text);
+        System.out.println("Text "+textT);
     }
 }

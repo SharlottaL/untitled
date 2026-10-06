@@ -1,12 +1,12 @@
 public abstract class Employee implements Payable {
-    private String name;
+    private String nameE;
     private double baseSalary;
-    public Employee(String name, double baseSalary) {
-        this.name = name;
+    public Employee(String nameE, double baseSalary) {
+        this.nameE = nameE;
         this.baseSalary = baseSalary;
     }
     public String getName() {
-        return name;
+        return nameE;
     }
 
     public double getBaseSalary() {

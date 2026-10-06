@@ -1,13 +1,12 @@
-public class Circle extends ShapeC {
+public class Circle implements Drawable{
     private double radius;
-    public Circle(String name, double radius)
+    public Circle(double radius)
     {
-        super(name);
         this.radius = radius;
     }
     @Override
-    public double area() {
-        return Math.PI * radius * radius;
+    public void draw() {
+        System.out.println("Параметры круга "+radius);
     }
 
 }

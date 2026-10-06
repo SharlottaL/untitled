@@ -1,11 +1,11 @@
 public abstract class Animal {
-    private String name;
+    private String nameA;
     public Animal(String name) {
-        this.name = name;
+        this.nameA = nameA;
     }
 
     public String getName() {
-        return name;
+        return nameA;
     }
     public abstract void makeSound();
     void sleep()
